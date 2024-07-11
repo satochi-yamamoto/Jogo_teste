@@ -13,10 +13,10 @@ const config = {
 const game = new Phaser.Game(config);
 
 function preload() {
-    this.load.image('red', 'path/to/red.png');
-    this.load.image('yellow', 'path/to/yellow.png');
-    this.load.image('blue', 'path/to/blue.png');
-    this.load.image('green', 'path/to/green.png');
+    this.load.image('red', 'assets/images/red.png');
+    this.load.image('yellow', 'assets/images/yellow.png');
+    this.load.image('blue', 'assets/images/blue.png');
+    this.load.image('green', 'assets/images/green.png');
     // Continue loading other images
 }
 
